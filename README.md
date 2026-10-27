@@ -51,10 +51,16 @@ Data
 Default of Credit Card Clients, UCI Machine Learning Repository (CC BY 4.0). 30,000 customers, 22% defaulted.
 
 How to run
+on Kaggle
+Open the dataset page and click New Notebook.
+Upload credit_risk.ipynb from this repo, or paste in the code.
+Run all cells.
+
+On your own computer
 bash
 pip install -r requirements.txt
-Download UCI_Credit_Card.csv from the Kaggle copy of the dataset and put it in a data/ folder.
-Open notebooks/credit_risk.ipynb and change the data path to data/UCI_Credit_Card.csv.
+Download UCI_Credit_Card.csv from the dataset page above and put it in the same folder as credit_risk.ipynb.
+Open credit_risk.ipynb and change the data path to UCI_Credit_Card.csv.
 Run all cells.
 
 Tools
